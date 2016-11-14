@@ -1,0 +1,8 @@
+public class PrintList
+{
+  public static void main(String args[])
+  {
+    RandomList first = new RandomList();
+    System.out.print(first.getList);
+    }
+   }
