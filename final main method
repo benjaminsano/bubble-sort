@@ -1,0 +1,21 @@
+public class BubbleSortDemo
+{
+ public static void main(String[] args)
+ {
+   int array[] = new int[]{1,6,34,12,7,108,8};
+  BubbleSort one = new BubbleSort();
+  System.out.println("Before beng sorted: ");
+  for(int i = 0; i< array.length; i++)
+  {
+   System.out.print(array[i] + " ");
+  }
+  System.out.print("\n");
+  BubbleSort.sort(array);
+  System.out.println("After being sorted: ");
+  for(int i = 0; i< array.length; i++)
+  {
+   System.out.print(array[i] + " ");
+  }
+  
+  }
+ }
